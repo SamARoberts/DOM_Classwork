@@ -26,13 +26,3 @@ removeBtn.addEventListener('click', () => {
 
     list.removeChild(listItem);
 })
-
-/*New code below*/
-
-
-list.addEventListener('mouseover',()=> {
-list.textContent = list.textContent.toUpperCase() });
-
-
- list.addEventListener('mouseout',()=>{
- list.textContent = list.textContent.toLowerCase()});
